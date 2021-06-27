@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Calculadora IMC</title>
+</head>
+<body id="particles-js">
+    <div class="container">
+        <div class="title">
+            <h1>Calculadora IMC - JS</h1>
+        </div>
+        <div class="calculator-div">
+            <div class="div-subtitle">
+                <h2>Preencha os campos abaixo:</h2>
+            </div>
+            <div class="label-div">
+                <div class="input-div">
+                    <select name="" id="sex">
+                        <option value="no">Sexo</option>
+                        <option value="masc">Masculino</option>
+                        <option value="fem">Feminino</option>
+                    </select>
+                </div>
+            </div>
+            <div class="label-div">
+                <div class="input-div">
+                    <input type="number" placeholder="Idade" id="age">
+                </div>
+            </div>
+            <div class="label-div">
+                <div class="input-div">
+                    <input type="number" placeholder="Altura"id="height">
+                </div>
+            </div>
+            <div class="label-div">
+                <div class="input-div">
+                    <input type="number" placeholder="Peso" id="weight">
+                </div>
+            </div>
+            <div class="btn-div">
+                <input type="button" id="btn" value="Calcular">
+                <div>
+                    <span class="message"></span>
+                </div>
+            </div>
+        </div>
+        <div class="result-div">
+            <div>
+                <div class="resul-title">
+                    <h1>Cálculo do IMC:</h1>
+                </div>
+                <div>
+                    <span>Olá, o calculo do seu IMC é de:</span>
+                    <div class="span-div">
+                        <span id="result-span"></span>
+                        <span id="imc-message"></span>
+                    </div>
+                    <div class="a-result-div">
+                        <a>OK</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/particles.js"></script>
+    <script src="./js/app.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
